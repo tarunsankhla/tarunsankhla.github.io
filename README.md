@@ -1,33 +1,29 @@
 ## Welcome to My GitHub
 
-I am [Tarun Sankhla](https://github.com/tarunsankhla/)
-You can use the [editor on GitHub](https://github.com/tarunsankhla/tarunsankhla.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hey! My name is [Tarun Sankhla](https://github.com/tarunsankhla/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am a 4th year student pursuing Engineering from Shah and Anchor Kutchhi Engineering College in Information Technology.With a relevant knowledge experience about Android Application Development and also in MEAN stack Development.I want to gain and learn as much as knowledge i can and grow in my field of Application and Web Development 
 
-### Markdown
+I have been programming from the past 2 years and always eager to learn and adapt to new technology and contribute to the community through interesting projects.
+### Skills
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+**Some technologies I have worked with:**
 
-# Header 1
-## Header 2
-### Header 3
+Python
+AWS
+Visual Studio code
+Android Studio
+Firebase
+MySQL
+NodeJS
+Github
+Bootstrap
+Angular2
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Nested Recycler View
 
@@ -35,9 +31,9 @@ I was working on an application for multiple list view from a single list array;
 
 ### Speech Recognization
 
-I was working on an Android Application on speech recognization and set the text to view; this feature can be usefull in chats. Check it on [Speech Recognisation](https://tarunsankhla.github.io/Speech-Recognization/).
-The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I was working on an `Android Applicatio`n on speech recognization and set the text to view; this feature can be usefull in chats. Check it on [Speech Recognisation](https://tarunsankhla.github.io/Speech-Recognization/).
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Contact
+
+Check out my [Linkedin](https://www.linkedin.com/in/tarun-sankhla-423a1116b/) or [Email Id](binary.world.prc@gmail.com).
