@@ -6,7 +6,7 @@ I am a 4th year student pursuing Engineering from Shah and Anchor Kutchhi Engine
 
 I am passionated about new technology, research and contribute to community, I have developed Android  and also Web Application. 
 ### Skills
-[My Resume](https://tarunsankhla.github.io/files/TarunSankhla_Resume.pdf)
+[Resume](https://tarunsankhla.github.io/files/TarunSankhla_Resume.pdf)
 
 ```markdown
 **Technologies I have worked with:**
