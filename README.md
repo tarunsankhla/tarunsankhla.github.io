@@ -6,22 +6,24 @@ I am a 4th year student pursuing Engineering from Shah and Anchor Kutchhi Engine
 
 I am passionated about new technology, research and contribute to community, I have developed Android  and also Web Application. 
 ### Skills
-
+[My Resume](https://github.com/tarunsankhla/Resume/blob/main/TarunSankhla_Resume.pdf)
 
 ```markdown
 **Technologies I have worked with:**
 
+NodeJS
+NEO 4J
 Python
 ArCore
-Mongo
+Mongo DB
 Visual Studio code
 Android Studio
 Firebase
 C#
-MySQL
-NodeJS
+SQL SERVER
 Github
 Bootstrap
+ASP.NET MVC
 Angular2
 HTML 5
 AWS
