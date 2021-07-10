@@ -33,29 +33,80 @@
 		<script>
 		  AOS.init();
 		</script>
+		
+		
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in" >
+				
+				
 				<!-- Intro -->
-
 				<div id="intro" class="row" >
-						
-				<style>
-					#prof {
-						border-radius: 50%;
-					}
-				</style>
+					<!-- animation -->
+					<div class="loader-wrapper">
+						<span class="loader"><span class="loader-inner"></span></span>
+					</div>
+					<style type="text/css">
+						.loader-wrapper {
+							width: 100%;
+							height: 100%;
+							position: absolute;
+							top: 0;
+							left: 0;
+							background-color: #242f3f;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						}
+					
+						.loader {
+							display: inline-block;
+							width: 30px;
+							height: 30px;
+							position: relative;
+							border: 4px solid #Fff;
+							animation: loader 2s infinite ease;
+						}
+					
+						.loader-inner {
+							vertical-align: top;
+							display: inline-block;
+							width: 100%;
+							background-color: #fff;
+							animation: loader-inner 2s infinite ease-in;
+						}
+						@keyframes loader {
+						0% { transform: rotate(0deg);}
+						25% { transform: rotate(180deg);}
+						50% { transform: rotate(180deg);}
+						75% { transform: rotate(360deg);}
+						100% { transform: rotate(360deg);}
+						}
+						@keyframes loader-inner {
+						0% { height: 0%;}
+						25% { height: 0%;}
+						50% { height: 100%;}
+						75% { height: 100%;}
+						100% { height: 0%;}
+						}
+					</style>
+					<!-- info -->
+					<style>
+						#prof {
+							border-radius: 50%;
+						}
+					</style>
 
-				<div class="col">
-					<img id="prof" src="images/pro.jpg" style="height: 180px;width: 180px;" alt="Avatar">
-				</div>
-											
-				<h1>Hi I'm Tarun</h1>
-				<p>I’m a Software engineer based in Mumbai, India.<br>
-					A Fullstack developer. I enjoy solving complex problems. I like to make digital experiences easier and simpler for people.<br/>I like working with new Tools and Technologies.</p>
-				<ul class="actions">
-					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-				</ul>
-			</div> 
+					<div class="col">
+						<img id="prof" src="images/pro.jpg" style="height: 180px;width: 180px;" alt="Avatar">
+					</div>
+												
+					<h1>Hi I'm Tarun</h1>
+					<p>I’m a Software engineer based in Mumbai, India.<br>
+						A Fullstack developer. I enjoy solving complex problems. I like to make digital experiences easier and simpler for people.<br/>I like working with new Tools and Technologies.</p>
+					<ul class="actions">
+						<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+					</ul>
+				</div> 
 
 				<!-- Header -->
 				<header id="header">
@@ -637,16 +688,17 @@
 			</div>
 
 		<!-- Scripts -->
+		
 			<script src="./assets/js/pointer.js"></script>
-			    <script>
-				init_pointer({
-						pointerColor: "#ffbb00",
+			<script>
+			init_pointer({
+					pointerColor: "#ffbb00",
 
-						ringSize: 15,
-						ringClickSize: 10
+					ringSize: 15,
+					ringClickSize: 10
 
-				})
-			    </script>
+			})
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -654,6 +706,24 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<script type="text/javascript">
+			
+				jQuery(document).ready(function ($) {
+					setTimeout(function () {
+						$('.loader-wrapper').fadeOut('slow', function () {
+							$(window).on("load", function () {
+			
+							});
+						});
+					}, 3000);
+			
+			
+				});
+				
+			
+			</script>
+			
 
 	</body>
 </html>
