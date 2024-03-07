@@ -4298,6 +4298,11 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	font-size: 0.8rem;
 }
 
+.full_row{
+	width: 100%;
+
+}
+
 @media screen and (max-width: 980px) {
 
 	#footer {
